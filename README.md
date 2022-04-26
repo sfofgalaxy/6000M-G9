@@ -1,7 +1,7 @@
 # DCGAN
 ## Create Environment and install modules
 ```.bash
-cd ./DCGAN
+cd ./dcGAN
 conda create -n dc python=3.8.8
 conda activate dc
 conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
@@ -12,7 +12,7 @@ pip install matplotlib
 # change all images to RGB 3 channels
 cd ..
 python data_cleaning.py
-cd ./DCGAN
+cd ./dcGAN
 ```
 ## Train DCGAN
 ```
@@ -68,7 +68,7 @@ export PATH=/home/zpeng/install/gcc-7.5.0/bin:/home/zpeng/install/gcc-7.5.0/lib6
 ## Quick Start
 ### Create Environment and install modules
 ```.bash
-cd ./StyleGAN3
+cd ./styleGAN3
 conda env create -f environment.yml
 conda activate stylegan3
 ```
@@ -77,7 +77,7 @@ conda activate stylegan3
 # change all images to RGB 3 channels
 cd ..
 python data_cleaning.py
-cd ./StyleGAN3
+cd ./styleGAN3
 # 128x128 resolution.
 python dataset_tool.py --source=../../data/images --dest=../../data/images-128x128.zip
 ```
