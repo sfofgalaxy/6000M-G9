@@ -67,8 +67,12 @@ conda activate stylegan3
 ```
 ### Pre-process dataset
 ```.bash
+# change all images to RGB 3 channels
+cd ..
+python data_cleaning.py
+cd ./StyleGAN3
 # 128x128 resolution.
-python dataset_tool.py --source=/tmp/images --dest=../../data/images-128x128.zip
+python dataset_tool.py --source=../../data/images --dest=../../data/images-128x128.zip
 ```
 ### Train StyleGAN3
 ```.bash
