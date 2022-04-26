@@ -63,7 +63,9 @@ tar -xvf gcc-7.5.0.tar.gz && cd gcc-7.5.0
 mkdir objdir && cd objdir
 ../configure --disable-checking --enable-languages=c,c++ --disable-multilib --prefix=/home/zpeng/install/gcc-7.5.0 --enable-threads=posix
 make -j64 && make install (multitread compile)
-export PATH=/home/zpeng/install/gcc-7.5.0/bin:/home/zpeng/install/gcc-7.5.0/lib64:$PATH && export LD_LIBRARY_PATH=/home/zpeng/install/gcc-7.5.0/lib/:$LD_LIBRARY_PATH && source ~/.bashrc
+export PATH=/home/zpeng/install/gcc-7.5.0/bin:/home/zpeng/install/gcc-7.5.0/lib64:$PATH
+export LD_LIBRARY_PATH=/home/zpeng/install/gcc-7.5.0/lib/:$LD_LIBRARY_PATH
+source ~/.bashrc
 ```
 
 ## Quick Start
