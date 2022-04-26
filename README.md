@@ -7,6 +7,13 @@ conda activate dc
 conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
 pip install matplotlib
 ```
+## Pre-process Dataset
+```.bash
+# change all images to RGB 3 channels
+cd ..
+python data_cleaning.py
+cd ./DCGAN
+```
 ## Train DCGAN
 ```
 python train.py
