@@ -1,3 +1,4 @@
+We seperate these projects into three main modules, which are DCGAN, StyleGAN3 and Improved diffusion respectively.
 # DCGAN
 ## Create Environment and install modules
 ```.bash
