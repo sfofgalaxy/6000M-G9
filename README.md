@@ -1,4 +1,8 @@
+# Acknowledgement
+This is code repository of Group 9 in HKUST Course 6000M Recent Advances in Deep Learning, which can be seen on [GitHub Code repository](https://github.com/sfofgalaxy/6000M-G9).
+
 We seperate these projects into three main modules, which are DCGAN, StyleGAN3 and Improved diffusion respectively.
+
 # DCGAN
 ## Create Environment and install modules
 ```.bash
